@@ -5,6 +5,10 @@ coffee brown: #30292F
 Cadet: #5D737E
 */
 
+body {
+    margin: 0px;
+}
+
 .nav-bar {
     display: flex;
     background-color: #264458;
@@ -15,11 +19,11 @@ Cadet: #5D737E
 }
 
 .phone-hours-wrapper {
-
+    padding-left: 100px;
 }
 
 .address-wrapper {
-
+    padding-right: 100px;
 }
 
 .link {
