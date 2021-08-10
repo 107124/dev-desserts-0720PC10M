@@ -18,8 +18,25 @@ body {
     align-items: center;
 }
 
-.phone-hours-wrapper {
+.nav-bar > .left-column {
+    display: flex;
+    align-items: center;
     padding-left: 100px;
+}
+
+.icon i {
+    color: #5D737E;
+    font-size: 2em;
+    margin-right: 12px;
+}
+
+.left-column > .phone-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.phone-hours-wrapper {
+    color: white;
 }
 
 .address-wrapper {
