@@ -7,6 +7,8 @@ Cadet: #5D737E
 
 body {
     margin: 0px;
+    font-family: 'Mulish', sans-serif;
+
 }
 
 .nav-bar {
@@ -33,6 +35,7 @@ body {
 .left-column > .phone-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 8px;
 }
 
 .phone-hours-wrapper {
@@ -45,4 +48,8 @@ body {
 
 .link {
     text-decoration: none;
+}
+
+.phone-number {
+    font-family: 'Mulish', sans-serif;
 }
