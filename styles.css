@@ -42,18 +42,61 @@ body {
     color: white;
 }
 
-.address-wrapper {
-    padding-right: 100px;
+.phone-number a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-bar > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-bar > .center-column > .logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 400px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 80px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: mediumspringgreen;
+    transition: ease-in-out 0.25s;
+}
+
+.link:hover {
+    color: #42b0f5;
+    letter-spacing: 2px;
 }
 
 .logo img {
     width: 125px;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .phone-number {
     font-family: 'Mulish', sans-serif;
+}
+
+.nav-bar > .right-column {
+    display: flex;
+    padding-right: 100px;
+
+}
+
+.address-wrapper {
+    text-align: right;
+    margin-right: 12px;
 }
