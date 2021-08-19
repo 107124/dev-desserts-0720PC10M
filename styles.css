@@ -11,6 +11,8 @@ body {
 
 }
 
+/* Navigation Styles */
+
 .nav-bar {
     display: flex;
     background-color: #264458;
@@ -32,6 +34,8 @@ body {
     margin-right: 12px;
 }
 
+/* Left Column */
+
 .left-column > .phone-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -43,10 +47,12 @@ body {
 }
 
 .phone-number a {
+    font-family: 'Mulish', sans-serif;
     text-decoration: none;
-    color: white;
+    color: white
 }
 
+/* Center column */
 
 .nav-bar > .center-column {
     display: grid;
@@ -86,17 +92,31 @@ body {
     width: 125px;
 }
 
-.phone-number {
-    font-family: 'Mulish', sans-serif;
-}
+/* Right Column */
 
 .nav-bar > .right-column {
     display: flex;
     padding-right: 100px;
-
 }
 
-.address-wrapper {
-    text-align: right;
-    margin-right: 12px;
+.address-wrapper a{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.25s;
+}
+
+.address-icon {
+    margin-left: 12px;
+    font-size: 2em;
+}
+
+.address-wrapper a:hover {
+    color: mediumspringgreen;
+}
+
+/* Featured Section */
+
+.featured-section {
+    background-image: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+
 }
